@@ -1,0 +1,31 @@
+- BLOG
+
+-- Resources
+
+## Post
+- id
+- slug
+
+- author (authorId)
+
+- title
+- content
+- cover (image)
+- createdAt
+- updatedAt
+- status (DRAFT, PUBLISHED)
+
+## User
+- id
+- name
+- email
+- password
+- status (active, inactive, banned)
+
+## Tag
+- id
+- name
+
+## PostTag
+- postId
+- tagId
