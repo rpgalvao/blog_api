@@ -17,7 +17,7 @@ class PostSeeder extends Seeder
             'slug' => 'slug-de-teste',
             'authorId' => 1,
             'title' => 'Titulo de Teste',
-            'content' => 'Conteudo de teste para popular a tabela de posts.',
+            'body' => 'Conteudo de teste para popular a tabela de posts.',
             'cover' => 'https://picsum.photos/200/300',
             'status' => 'PUBLISHED'
         ]);
