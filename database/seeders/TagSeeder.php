@@ -18,8 +18,5 @@ class TagSeeder extends Seeder
         $tag2 = Tag::create(['name' => 'Laravel']);
         $tag3 = Tag::create(['name' => 'JavaScript']);
         $tag4 = Tag::create(['name' => 'Pyton']);
-
-        $post = Post::first();
-        $post->tags()->attach([$tag1->id, $tag2->id]);
     }
 }
